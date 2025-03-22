@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #27494A;
+    color: #E3D298;
+}
+
+header {
+    background-color: #878167;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+section {
+    padding: 40px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#skills li {
+    background-color: #E5BE63;
+    color: #27494A;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.project {
+    background-color: #FA8267;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+.experience {
+    background-color: #E3D298;
+    color: #27494A;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.social-links a {
+    color: #E5BE63;
+    margin: 0 10px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .social-links {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    #skills ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
